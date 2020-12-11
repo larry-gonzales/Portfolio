@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Larry Gonzales > Web Developer</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<!-- Header Container -->
+		<header class="container">
+			<!-- Nav -->
+			<div class="nav" id="navbar">
+				<!-- <div class="mobile-name">Larry Gonzales</div> -->
+				<div class="menu-btn">
+					<div class="menu-btn-burger"></div>
+				</div>
+				<div class="menu">
+					<p class="nav-name">Larry Gonzales</p>
+					<a href="#" class="nav-link">Home</a>
+					<a href="#about" class="nav-link">About Me</a>
+					<a href="#projects" class="nav-link">Projects</a>
+					<a href="mailto:larry.g.gonzales@gmail.com" target="_blank" class="nav-link nav-btn">Contact</a>
+				</div>
+			</div>
+			<!-- END Nav -->
+			<!-- Header Container and Background Image -->
+			<div id="home" class="hero">
+				<!-- Name and Title -->
+				<div class="hero__text">
+						<h1 class="name">Larry Gonzales</h1>
+						<h2 class="title">I'm a Web Developer</h2>
+				</div>
+				<!-- END Name and Title -->
+			</div>
+			<!-- END Header Container and Background Image -->
+		</header>
+		<!-- END Header Container -->
+		<main class="main">
+			<!-- About Me Section -->
+			<div id="about" class="about-container">
+				<!-- About Title -->
+				<div>
+					<h3 class="sec-title">About me</h3>
+					<hr class="rule">
+				</div>
+				<!-- END About Title -->
+				<!-- Flex Container -->
+				<section class="flex-container">
+				<!-- About Me Image and Buttons – Column 1 -->
+					<div class="about-col1">
+						<div class="about-img"></div>
+						<div class="about-media-icons">
+							<div class="about-sec linkedin-icon">
+								<a href="https://www.linkedin.com/in/gonzaleslarry/" target="_blank">
+									<img src="img/linkedin-btn-steelblue.svg" alt="linkedin icon"/>
+								</a>
+							</div>
+							<div class="about-sec email-icon">
+								<a href="mailto:larry.g.gonzales@gmail.com" target="_blank">
+									<img src="img/email-btn-steelblue.svg" alt="email icon"/>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- END About Me Image and Buttons – Column 1 -->
+					<!-- END About Me Text and Skills Icons – Column 2 -->
+					<div class="about-col2">
+						<!-- About Text -->
+						<div class="about-text">
+							<p>
+								<span class="about-bold">Hello, my name is Larry Gonzales.<br></span>
+							</p><br>
+							<p>
+								I was born in California, raised in Pennsylvania, and currently live in New Jersey. I am keen on biking, card and board games, college football, a good beer, and (arguably) have an unhealthy obsession with hockey.
+							</p><br>
+							<p>
+								I'm a Senior Graphic Designer currently shifting my career into full-time web development. Design has always been my passion, but, as these two worlds have gotten closer, I have found that building great content is just as rewarding as creating it.
+							</p><br>
+							<p>
+								Learning new languages, methodologies, and frameworks present no limit to what I can learn to grow and improve my craft. I am eager to build a strong future as a web developer by taking advantage of my creative talents and problem-solving abilities.
+							</p>
+							<br>
+							<h4 class="skills">Some of my skills include:</h4>
+							<hr class="skills-rule">
+						</div>
+						<!-- END About Text -->
+						<!-- Skills Icons -->
+						<div class="icons">
+							<img src="img/skills-icons.svg" alt="skill icons.">
+						</div>
+						<!-- END Skills Icons -->
+					</div>
+					<!-- END About Me Text and Skills Icons – Column 2 -->
+				</section>
+				<!-- END Flex Container -->
+			</div>
+			<!-- END About Me Section -->
+
+			<!-- Projects Section -->
+			<div id="projects" class="project-container">
+				<!-- Projects Section Title -->
+				<div class="sec-head project-subhead">
+					<h3 class="sec-title">Projects</h3>
+					<hr class="rule">
+				</div>
+				<!-- END Projects Section Title -->
+				<!-- Projects Grid -->
+				<section> 
+					<div class="grid">
+						<!-- Noah Great Bar website -->
+						<div class="grid-item">
+							<img class="project-image" src="img/01-thumb.jpg" alt="Project thumbnail.">
+							<div class="overlay overlay-blur">
+								<div class="project-description">
+									<!-- Project text -->
+									<h4 class="project-name">Noah Great Bar</h4>
+									<p class="project-text">A mobile first, responsive website for a fictitious bar and restaurant. This was my first attempt at building a single-page scrolling site from scratch.</p>
+									<!-- Github buttons -->
+									<div class="github-container">
+										<a href="https://github.com/larry-gonzales/Noah-Great-Bar" target="_blank">
+											<button class="code-btn">code</button>
+										</a>
+										<a href="https://larry-gonzales.github.io/Noah-Great-Bar" target="_blank">
+											<button class="app-btn" >app</button>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- END Project Noah Great Bar website -->
+						<!-- Portfolio website -->
+						<div class="grid-item">
+							<img class="project-image" src="img/02-thumb.jpg" alt="Project thumbnail.">
+							<div class="overlay overlay-blur">
+								<div class="project-description">
+									<!-- Project text -->
+									<h4 class="project-name">Personal Portfolio</h4>
+									<p class="project-text">This is the very website you are browsing. It was designed and built to be a simple, responsive site to showcase my current and future projects.</p>
+									<!-- Github buttons -->
+									<div class="github-container">
+										<a href="https://larry-gonzales.github.io/Noah-Great-Bar" target="_blank">
+											<button class="code-btn">code</button>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- END Portfolio website -->
+						<!-- Quiz Show app -->
+						<div class="grid-item">
+							<img class="project-image" src="img/03-thumb.jpg" alt="Project thumbnail.">
+							<div class="overlay overlay-blur">
+								<div class="project-description">
+									<!-- Project text -->
+									<h4 class="project-name">Quiz Show</h4>
+									<p class="project-text">
+										A responsive, multiple-choice quiz app featuring four categories: Movies, Sports, Cartoons and Music. Built with pure HTML, CSS and JS.
+									</p>
+									<!-- Github buttons -->
+									<div class="github-container">
+										<a href="https://github.com/larry-gonzales/quiz-show" target="_blank">
+											<button class="code-btn">code</button>
+										</a>
+										<a href="https://larry-gonzales.github.io/quiz-show/" target="_blank">
+											<button class="app-btn" >app</button>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- END Quiz Show app -->
+						<!-- Project Coming Soon -->
+						<div class="grid-item">
+							<a href="#" target="_blank">
+								<img class="project-image" src="img/coming-soon.jpg" alt="Project coming soon.">
+							</a>
+							<div class="overlay overlay-blur">
+								<div class="project-description">
+									<h4 class="project-name">Coming Soon</h4>
+									<p class="project-text">We're almost there.</p>
+								</div>
+							</div>
+						</div>
+						<!-- END Project Coming Soon -->
+					</div>
+                </section>
+				<!-- END Projects Grid -->
+			</div>
+			<!-- END Projects Section -->
+		</main>
+		<!-- END Main -->
+		<!-- Footer and Contact Section -->
+		<footer>
+			<div class="footer-container">
+				<!-- Contact Section Title -->
+				<div class="blurb">
+						<h2>Living, learning and improving everyday.</h2>
+				</div>
+				<!-- END Contact Section Title -->
+				<!-- Contact buttons -->
+				<div class="media-icons">
+					<div class="foot-linkedin-icon">
+						<a href=" https://www.linkedin.com/in/gonzaleslarry/" target="_blank">
+							<img src="img/linkedin-btn-white.svg" alt="linkedin icon"/>
+						</a>
+					</div>
+					<div class="foot-email-icon">
+						<a href="mailto:larry.g.gonzales@gmail.com" target="_blank">
+							<img src="img/email-btn-white.svg" alt="email icon"/>
+						</a>
+					</div>
+				</div>
+				<!-- END Contact buttons -->
+				<div class="copyright">
+					<p>Larry Gonzales © TwentyTwenty</p>			
+				</div>
+			</div>
+		</footer>
+		<!-- END Footer Section -->
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
